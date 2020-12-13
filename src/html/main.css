@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
 :root {
     --bg-color: #172A3A;
     --txt-color: #FFEAD0;
     --color: #00CCA4;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    font-family: 'PT Sans', sans-serif;
 }

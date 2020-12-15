@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 :root {
@@ -7,7 +7,7 @@
     --color: #00CCA4;
     --graid-txt: linear-gradient(90deg, #00EE6E,#0C75E6);
     --graid-txt-2: linear-gradient(90deg,#ff8a00,#e52e71);
-    --font-pt: 'PT Sans', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
     --font-russo: 'Russo One', sans-serif;
     --headr-txt: 'Roboto Slab', serif;
     --card-bg: #403D39;
@@ -17,7 +17,7 @@
 body {
     background-color: var(--bg-color);
     color: var(--txt-color);
-    font-family: var(--font-pt);
+    font-family: var(--font-poppins);
 }
 
 h1 {
@@ -72,7 +72,7 @@ a {
 }
 
 .card-header p {
-    font-size: 14px;
+    font-size: 15px;
     margin: 0 0 1rem;
     color: var(--card-headr);
 }

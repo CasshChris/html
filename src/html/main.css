@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 :root {
-    --bg-color: #172A3A;
+    --bg-color: #252422;
     --txt-color: #FFEAD0;
     --color: #00CCA4;
     --graid-txt: linear-gradient(90deg, #00EE6E,#0C75E6);
@@ -10,8 +10,27 @@
     --font-pt: 'PT Sans', sans-serif;
     --font-russo: 'Russo One', sans-serif;
     --headr-txt: 'Roboto Slab', serif;
+    --card-bg: #403D39;
+    --card-headr: #EB5E28;
 }
-
+.example {
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow-y: scroll; /* Add the ability to scroll */
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .example::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 body {
     background-color: var(--bg-color);
     color: var(--txt-color);
@@ -41,7 +60,7 @@ a {
     min-width: 250px;
     padding: 1.5rem;
     border-radius: 5px;
-    background: #17141d;
+    background: var(--card-bg);
     /*box-shadow: -1rem 0 3rem #000;*/
     display: flex;
     flex-direction: column;
@@ -72,7 +91,7 @@ a {
 .card-header p {
     font-size: 14px;
     margin: 0 0 1rem;
-    color: #7a7a8c;
+    color: var(--card-headr);
 }
 
 .card-header h2 {

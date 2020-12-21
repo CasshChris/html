@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 
 :root {
     --bg-color: #252422;
@@ -10,7 +9,6 @@
     --graid-txt-2: linear-gradient(90deg,#ff8a00,#e52e71);
     --font-poppins: 'Poppins', sans-serif;
     --font-russo: 'Russo One', sans-serif;
-    --headr-txt: 'Roboto Slab', serif;
     --card-bg: #403D39;
     --card-headr: #f57948;
 }

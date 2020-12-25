@@ -1,3 +1,4 @@
-﻿# Idk im just testing somestuff out
+﻿# html
  
- I want to see if could do that. So I did
+ This repo is to test out html projects
+ 
